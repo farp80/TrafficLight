@@ -9,6 +9,15 @@ export class TrafficLight extends React.Component {
 	}
 
 	render() {
-		return <div className="thinnerDiv" />;
+		return (
+			<div className="text-center mt-5">
+				<div className="thinnerDiv pt-1" />
+				<div className="widerDiv">
+					<div className="dot red mb-3" />
+					<div className="dot yellow mb-3" />
+					<div className="dot green" />
+				</div>
+			</div>
+		);
 	}
 }
